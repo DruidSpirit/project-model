@@ -1,0 +1,11 @@
+server:
+  port: 8910
+
+#spring配置
+spring:
+  profiles:
+    active: dev
+
+#swgger文档配置
+swagger:
+  enabled: true

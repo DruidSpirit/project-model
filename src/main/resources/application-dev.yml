@@ -1,0 +1,24 @@
+#日志输出配置
+logging:
+  config: classpath:logging/log4j2-dev.yml
+
+#多数据源配置
+multi-data-source:
+  name:
+    - prmsce-mysql
+  url:
+    - jdbc:mysql://localhost/druid-novel?useUnicode=true&serverTimezone=GMT%2B8&characterEncoding=utf8&useSSL=false
+  username:
+    - root
+  password:
+    - root
+  driver-class-name:
+    - com.mysql.cj.jdbc.Driver
+
+#mvc设置
+web-mvc-config:
+  #跨域允许访问域名(默认所有域名都可以访问)
+  origins:
+    - http://192.168.2.192:8880
+    - http://192.168.2.129:8083
+
