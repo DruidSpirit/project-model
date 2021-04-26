@@ -19,7 +19,7 @@
         <mybatis.plus.version>3.1.1</mybatis.plus.version>
         <com.oracle.version>1.1.0</com.oracle.version>
         <swagger.version>1.8.0.RELEASE</swagger.version>
-        <commons.io.version>2.6</commons.io.version>
+        <commons.io.version>2.7</commons.io.version>
         <org.freemarker.version>2.3.28</org.freemarker.version>
     </properties>
 
